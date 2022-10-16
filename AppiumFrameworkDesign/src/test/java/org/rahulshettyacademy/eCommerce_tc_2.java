@@ -27,6 +27,8 @@ public class eCommerce_tc_2 extends AndroidBaseTest{
 	public void preSetup()
 	{
 		//screen to home page
+		
+		//testGitpull
 		Activity activity = new Activity("com.androidsample.generalstore", "com.androidsample.generalstore.MainActivity");
 		driver.startActivity(activity);
 		
